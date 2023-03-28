@@ -9,6 +9,7 @@ You need local redis server running
 ```bash
 curl -fsSL https://crystal-lang.org/install.sh | sudo bash
 git clone https://github.com/Rorkh/gm_express_service.cr express_service
+cd express_service
 shards run
 ```
 ### Docker
