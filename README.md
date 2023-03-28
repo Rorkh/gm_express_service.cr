@@ -1,6 +1,6 @@
 # gm_express_service.cr
 
-This is the backend web project that supports the [GMod Express Addon](https://github.com/cfc-Servers/gm_express).
+This is the alternative backend web project that supports the [GMod Express Addon](https://github.com/cfc-Servers/gm_express).
 
 ## Installation
 
