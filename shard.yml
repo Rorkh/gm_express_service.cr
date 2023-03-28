@@ -1,0 +1,19 @@
+name: express_crystal
+version: 0.1.0
+
+authors:
+  - Rorkh <rorkh@internet.ru>
+
+targets:
+  express_crystal:
+    main: src/express.cr
+
+dependencies:
+  router:
+    github: tbrand/router.cr
+  redis:
+    github: stefanwille/crystal-redis
+
+crystal: 1.7.2
+
+license: MIT
