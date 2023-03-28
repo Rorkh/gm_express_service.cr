@@ -1,27 +1,18 @@
 # gm_express_service.cr
 
-TODO: Write a description here
+This is the backend web project that supports the [GMod Express Addon](https://github.com/cfc-Servers/gm_express).
 
 ## Installation
 
-TODO: Write installation instructions here
+### Ubuntu
+You need local redis server running
+```bash
+curl -fsSL https://crystal-lang.org/install.sh | sudo bash
+git clone https://github.com/Rorkh/gm_express_service.cr express_service
+shards run
+```
+### Docker
+Will be soon
 
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-TODO: Write development instructions here
-
-## Contributing
-
-1. Fork it (<https://github.com/your-github-user/gm_express_service.cr/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
-
-## Contributors
-
-- [Rorkh](https://github.com/Rorkh) - creator and maintainer
+## Project goals
+No goals. Just learning Crystal. I'm not sure it's more performant (but maybe).
